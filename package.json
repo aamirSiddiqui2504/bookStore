@@ -1,0 +1,23 @@
+{
+  "name": "bookstore",
+  "version": "1.0.0",
+  "description": "This application is for book registration",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aamirSiddiqui2504/bookStore.git"
+  },
+  "author": "AamirSiddiqui",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aamirSiddiqui2504/bookStore/issues"
+  },
+  "homepage": "https://github.com/aamirSiddiqui2504/bookStore#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^1.19.1"
+  }
+}
