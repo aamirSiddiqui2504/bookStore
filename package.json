@@ -4,7 +4,8 @@
   "description": "This application is for book registration",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -17,7 +18,12 @@
   },
   "homepage": "https://github.com/aamirSiddiqui2504/bookStore#readme",
   "dependencies": {
+    "body-parser": "^1.19.0",
     "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.6.4",
+    "multer": "^1.4.1",
     "nodemon": "^1.19.1"
-  }
+  },
+  "devDependencies": {}
 }

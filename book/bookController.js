@@ -7,6 +7,7 @@ var booklist = require('./books');
 
 
 router.get('/list', function(req,res){
+    
  res.send(booklist);
 })
 
